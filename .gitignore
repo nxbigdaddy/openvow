@@ -1,0 +1,14 @@
+# binaries
+/bin/
+/openvow
+/openvow.exe
+
+# local state
+*.db
+*.db-wal
+*.db-shm
+/demo/
+
+# build artifacts
+docs/design/_book.html
+__pycache__/
