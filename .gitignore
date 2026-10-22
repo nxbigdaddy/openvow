@@ -12,3 +12,13 @@
 # build artifacts
 docs/design/_book.html
 __pycache__/
+
+# secrets —— 永远不要提交这些
+.env
+.env.*
+*.pem
+*.key
+*.p12
+secrets.json
+.token
+.credentials
