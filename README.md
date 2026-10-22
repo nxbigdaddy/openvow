@@ -42,8 +42,8 @@ tools/              文档构建脚本
 - [x] 仓库骨架、SQLite 六张表迁移、`/healthz`
 - [x] `contract` 包：路径规范化、glob 匹配、冻结比对（含 fuzz 回归语料）
 - [x] 提交流水线六步：幂等 → 租约 → L0/L1 → 落盘 → L3 → 落库
-- [ ] HTTP 端点 + token 中间件
-- [ ] CLI（task new / claim / submit）
+- [x] HTTP 端点 + token 中间件（claim / heartbeat / submit / artifacts / peek）
+- [x] 最小 CLI（`terminal add` / `task new` / `task list`）
 - [ ] 验收脚本（五条标准）
 
 逐行细节见 [M0 施工清单](docs/design/M0-施工清单.md)。
