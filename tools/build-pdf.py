@@ -81,11 +81,11 @@ td code, th code { font-size: 8.2pt; }
 
 TEMPLATE = """<!DOCTYPE html>
 <html lang="zh-CN"><head><meta charset="utf-8">
-<title>OpenVow 设计文档 合订本 v1.1</title><style>{css}</style></head>
+<title>OpenVow 设计文档 合订本 v1.2</title><style>{css}</style></head>
 <body>
 <div class="cover">
   <div class="eyebrow">Neutral Task Broker</div>
-  <h1>OpenVow 设计文档<br>合订本 v1.1</h1>
+  <h1>OpenVow 设计文档<br>合订本 v1.2</h1>
   <div class="rule"></div>
   <div class="sub">人定契约，终端干活，平台只做派发、校验、归集、合并。<br>
   没有隐含动作，只有任务；判卷的人不是考生。</div>
